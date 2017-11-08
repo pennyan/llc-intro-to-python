@@ -804,11 +804,11 @@
       <script type="text/template">
         ## Examples with and/or
 
-        In math notation you can write `0 < x < 6`, but in Python, you should split these into separate comparisons.
+        In math notation you can write `0 < x < 6`. In Python, you can either split these into separate comparisons like `x > 0 and x < 6` or use the math notation for simplification.
 
         ```python
          x = 5
-         if x > 0 and x < 6:
+         if 0 < x < 6:
              print("x is between 0 and 6.")
 
         ```
